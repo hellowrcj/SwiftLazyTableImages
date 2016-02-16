@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B349971C72F85F009A14D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B349961C72F85F009A14D1 /* AppDelegate.swift */; };
+		60B349991C72F85F009A14D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B349981C72F85F009A14D1 /* ViewController.swift */; };
+		60B3499C1C72F85F009A14D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B3499A1C72F85F009A14D1 /* Main.storyboard */; };
+		60B3499E1C72F85F009A14D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B3499D1C72F85F009A14D1 /* Assets.xcassets */; };
+		60B349A11C72F85F009A14D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B3499F1C72F85F009A14D1 /* LaunchScreen.storyboard */; };
+		60B349AC1C72F85F009A14D1 /* SwiftLazyTableImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B349AB1C72F85F009A14D1 /* SwiftLazyTableImagesTests.swift */; };
+		60B349B71C72F85F009A14D1 /* SwiftLazyTableImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B349B61C72F85F009A14D1 /* SwiftLazyTableImagesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B349A81C72F85F009A14D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B3498B1C72F85F009A14D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B349921C72F85F009A14D1;
+			remoteInfo = SwiftLazyTableImages;
+		};
+		60B349B31C72F85F009A14D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B3498B1C72F85F009A14D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B349921C72F85F009A14D1;
+			remoteInfo = SwiftLazyTableImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60B349931C72F85F009A14D1 /* SwiftLazyTableImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLazyTableImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B349961C72F85F009A14D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60B349981C72F85F009A14D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60B3499B1C72F85F009A14D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B3499D1C72F85F009A14D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B349A01C72F85F009A14D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B349A21C72F85F009A14D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B349A71C72F85F009A14D1 /* SwiftLazyTableImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLazyTableImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B349AB1C72F85F009A14D1 /* SwiftLazyTableImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLazyTableImagesTests.swift; sourceTree = "<group>"; };
+		60B349AD1C72F85F009A14D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B349B21C72F85F009A14D1 /* SwiftLazyTableImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLazyTableImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B349B61C72F85F009A14D1 /* SwiftLazyTableImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLazyTableImagesUITests.swift; sourceTree = "<group>"; };
+		60B349B81C72F85F009A14D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B349901C72F85F009A14D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B349A41C72F85F009A14D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B349AF1C72F85F009A14D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B3498A1C72F85F009A14D1 = {
+			isa = PBXGroup;
+			children = (
+				60B349951C72F85F009A14D1 /* SwiftLazyTableImages */,
+				60B349AA1C72F85F009A14D1 /* SwiftLazyTableImagesTests */,
+				60B349B51C72F85F009A14D1 /* SwiftLazyTableImagesUITests */,
+				60B349941C72F85F009A14D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B349941C72F85F009A14D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B349931C72F85F009A14D1 /* SwiftLazyTableImages.app */,
+				60B349A71C72F85F009A14D1 /* SwiftLazyTableImagesTests.xctest */,
+				60B349B21C72F85F009A14D1 /* SwiftLazyTableImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B349951C72F85F009A14D1 /* SwiftLazyTableImages */ = {
+			isa = PBXGroup;
+			children = (
+				60B349961C72F85F009A14D1 /* AppDelegate.swift */,
+				60B349981C72F85F009A14D1 /* ViewController.swift */,
+				60B3499A1C72F85F009A14D1 /* Main.storyboard */,
+				60B3499D1C72F85F009A14D1 /* Assets.xcassets */,
+				60B3499F1C72F85F009A14D1 /* LaunchScreen.storyboard */,
+				60B349A21C72F85F009A14D1 /* Info.plist */,
+			);
+			path = SwiftLazyTableImages;
+			sourceTree = "<group>";
+		};
+		60B349AA1C72F85F009A14D1 /* SwiftLazyTableImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B349AB1C72F85F009A14D1 /* SwiftLazyTableImagesTests.swift */,
+				60B349AD1C72F85F009A14D1 /* Info.plist */,
+			);
+			path = SwiftLazyTableImagesTests;
+			sourceTree = "<group>";
+		};
+		60B349B51C72F85F009A14D1 /* SwiftLazyTableImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B349B61C72F85F009A14D1 /* SwiftLazyTableImagesUITests.swift */,
+				60B349B81C72F85F009A14D1 /* Info.plist */,
+			);
+			path = SwiftLazyTableImagesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B349921C72F85F009A14D1 /* SwiftLazyTableImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B349BB1C72F85F009A14D1 /* Build configuration list for PBXNativeTarget "SwiftLazyTableImages" */;
+			buildPhases = (
+				60B3498F1C72F85F009A14D1 /* Sources */,
+				60B349901C72F85F009A14D1 /* Frameworks */,
+				60B349911C72F85F009A14D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLazyTableImages;
+			productName = SwiftLazyTableImages;
+			productReference = 60B349931C72F85F009A14D1 /* SwiftLazyTableImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B349A61C72F85F009A14D1 /* SwiftLazyTableImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B349BE1C72F85F009A14D1 /* Build configuration list for PBXNativeTarget "SwiftLazyTableImagesTests" */;
+			buildPhases = (
+				60B349A31C72F85F009A14D1 /* Sources */,
+				60B349A41C72F85F009A14D1 /* Frameworks */,
+				60B349A51C72F85F009A14D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B349A91C72F85F009A14D1 /* PBXTargetDependency */,
+			);
+			name = SwiftLazyTableImagesTests;
+			productName = SwiftLazyTableImagesTests;
+			productReference = 60B349A71C72F85F009A14D1 /* SwiftLazyTableImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60B349B11C72F85F009A14D1 /* SwiftLazyTableImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B349C11C72F85F009A14D1 /* Build configuration list for PBXNativeTarget "SwiftLazyTableImagesUITests" */;
+			buildPhases = (
+				60B349AE1C72F85F009A14D1 /* Sources */,
+				60B349AF1C72F85F009A14D1 /* Frameworks */,
+				60B349B01C72F85F009A14D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B349B41C72F85F009A14D1 /* PBXTargetDependency */,
+			);
+			name = SwiftLazyTableImagesUITests;
+			productName = SwiftLazyTableImagesUITests;
+			productReference = 60B349B21C72F85F009A14D1 /* SwiftLazyTableImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B3498B1C72F85F009A14D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wrcj;
+				TargetAttributes = {
+					60B349921C72F85F009A14D1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					60B349A61C72F85F009A14D1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 60B349921C72F85F009A14D1;
+					};
+					60B349B11C72F85F009A14D1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 60B349921C72F85F009A14D1;
+					};
+				};
+			};
+			buildConfigurationList = 60B3498E1C72F85F009A14D1 /* Build configuration list for PBXProject "SwiftLazyTableImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B3498A1C72F85F009A14D1;
+			productRefGroup = 60B349941C72F85F009A14D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B349921C72F85F009A14D1 /* SwiftLazyTableImages */,
+				60B349A61C72F85F009A14D1 /* SwiftLazyTableImagesTests */,
+				60B349B11C72F85F009A14D1 /* SwiftLazyTableImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B349911C72F85F009A14D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B349A11C72F85F009A14D1 /* LaunchScreen.storyboard in Resources */,
+				60B3499E1C72F85F009A14D1 /* Assets.xcassets in Resources */,
+				60B3499C1C72F85F009A14D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B349A51C72F85F009A14D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B349B01C72F85F009A14D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B3498F1C72F85F009A14D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B349991C72F85F009A14D1 /* ViewController.swift in Sources */,
+				60B349971C72F85F009A14D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B349A31C72F85F009A14D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B349AC1C72F85F009A14D1 /* SwiftLazyTableImagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B349AE1C72F85F009A14D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B349B71C72F85F009A14D1 /* SwiftLazyTableImagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B349A91C72F85F009A14D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B349921C72F85F009A14D1 /* SwiftLazyTableImages */;
+			targetProxy = 60B349A81C72F85F009A14D1 /* PBXContainerItemProxy */;
+		};
+		60B349B41C72F85F009A14D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B349921C72F85F009A14D1 /* SwiftLazyTableImages */;
+			targetProxy = 60B349B31C72F85F009A14D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B3499A1C72F85F009A14D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B3499B1C72F85F009A14D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60B3499F1C72F85F009A14D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B349A01C72F85F009A14D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B349B91C72F85F009A14D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B349BA1C72F85F009A14D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B349BC1C72F85F009A14D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftLazyTableImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrcj.test.SwiftLazyTableImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60B349BD1C72F85F009A14D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftLazyTableImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrcj.test.SwiftLazyTableImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60B349BF1C72F85F009A14D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftLazyTableImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrcj.test.SwiftLazyTableImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLazyTableImages.app/SwiftLazyTableImages";
+			};
+			name = Debug;
+		};
+		60B349C01C72F85F009A14D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftLazyTableImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrcj.test.SwiftLazyTableImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLazyTableImages.app/SwiftLazyTableImages";
+			};
+			name = Release;
+		};
+		60B349C21C72F85F009A14D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftLazyTableImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrcj.test.SwiftLazyTableImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftLazyTableImages;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60B349C31C72F85F009A14D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftLazyTableImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrcj.test.SwiftLazyTableImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftLazyTableImages;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B3498E1C72F85F009A14D1 /* Build configuration list for PBXProject "SwiftLazyTableImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B349B91C72F85F009A14D1 /* Debug */,
+				60B349BA1C72F85F009A14D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B349BB1C72F85F009A14D1 /* Build configuration list for PBXNativeTarget "SwiftLazyTableImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B349BC1C72F85F009A14D1 /* Debug */,
+				60B349BD1C72F85F009A14D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60B349BE1C72F85F009A14D1 /* Build configuration list for PBXNativeTarget "SwiftLazyTableImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B349BF1C72F85F009A14D1 /* Debug */,
+				60B349C01C72F85F009A14D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60B349C11C72F85F009A14D1 /* Build configuration list for PBXNativeTarget "SwiftLazyTableImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B349C21C72F85F009A14D1 /* Debug */,
+				60B349C31C72F85F009A14D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B3498B1C72F85F009A14D1 /* Project object */;
+}
